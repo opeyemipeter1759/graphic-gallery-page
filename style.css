@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: hsl(0, 0, 100%);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  line-height: 1.5;
+  width: 100%;
+}
+
+p {
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'Source Code Pro', monospace;
+  width: 70%;
+}
+
+footer {
+  text-align: center;
+  margin: auto;
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  p,
+  h2 {
+      width: 100%;
+  }
+  h2 {
+      font-size: 24px;
+  }
+  p {
+      font-size: 18px;
+  }
+}
+
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+img.pics {
+  height: 400px;
+  width: 400px;
+}
+
+
+img.music {
+  
+  height: 400px;
+}
+
+.lead {
+  margin: auto;
+}
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+
+
+/* @media (max-width: 400px) {
+  .container {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .container {
+      display: grid;
+      grid-template-columns:  300px;
+      grid-template-rows: 400px;
+      gap: 1px 1px;
+      grid-template-areas: "basketball""music""coding""reading""movies""software-engineer""data-sci""collaboration""coding""leading"".";
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 400px 400px 400px;
+  gap: 1px 1px;
+  grid-template-areas: "coding software-engineer data-sci"  ". movies ." "music . basketball" "thinking collaboration reading"" . lead ." ;
+}
+
+.music { 
+  grid-area: music;
+}
+
+.coding {
+  grid-area: coding;
+}
+
+.software-engineer {
+  grid-area: software-engineer;
+}
+
+.movies {
+  grid-area: movies;
+}
+
+.basketball {
+  grid-area: basketball;
+}
+
+.reading {
+  grid-area: reading;
+}
+
+.thinking {
+  grid-area: thinking;
+}
+.data-sci {
+  grid-area: data-sci;
+}
+.collaboration {
+  grid-area: collaboration;
+}
+.lead {
+  grid-area: lead;
+} */
